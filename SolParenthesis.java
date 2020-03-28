@@ -1,6 +1,10 @@
 import java.util.*;
 // Anilabha Baral
 
+/*
+Question: Given a string of opening and closing parentheses, check whether it’s balanced.
+*/
+
 public class SolParenthesis {
 	public static void main(String[] args) {
 		Stack<Character> st = new Stack<Character>();
