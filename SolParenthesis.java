@@ -1,10 +1,11 @@
 import java.util.*;
+// Anilabha Baral
 
 public class SolParenthesis {
 	public static void main(String[] args) {
 		Stack<Character> st = new Stack<Character>();
 		Scanner s = new Scanner(System.in);
-		String p = "[()()()()({}{}{}{}{})]";
+		String p = "[()()()()({}{}{}{}{})]";//enter your parentheses expression here
 		boolean isbalance = true;
 
 		for (int i = 0; i < p.length(); i++) {
